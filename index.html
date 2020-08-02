@@ -1,7 +1,19 @@
 <!DOCTYPE html>
-
 <html>
-<head>
+<style type="text/css">
+    #warning-message { display: none; }
+    @media only screen and (orientation:portrait){
+        #wrapper { display:none; }
+        #warning-message { display:block; }
+    }
+    @media only screen and (orientation:landscape){
+        #warning-message { display:none; }
+    }
+</style>
+
+
+<div id="wrapper">
+   <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -153,4 +165,10 @@ Cureentlny NOt Available.</h2>
 
 
 </head>
+</div>
+<div id="warning-message">
+    this website is only viewable in landscape mode
+</div>
+
+
 </html>
