@@ -200,10 +200,10 @@ border-left: 8px solid transparent;
 border-radius: 150px;
 
 
-width: 220px;
-height:220px;
-top:90px;
-left:1050px;
+width: 20%;
+height:50%;
+top:24%;
+left:77%;
 
 position: relative;
 -moz-animation: spinPulse 3s infinite ease-in-out;
@@ -219,10 +219,10 @@ border-left: 5px solid transparent;
 border-right: 5px solid transparent;
 border-radius: 100px;
 
-width: 200px;
-height: 200px;
-top: 105px;
-left:825px;
+width: 10%;
+height: 40%;
+top: 28%;
+left:61%;
 
 position: relative;
 -moz-animation: spinoffPulse 1s infinite linear;
