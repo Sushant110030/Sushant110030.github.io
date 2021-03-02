@@ -4,15 +4,19 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-   
+   $("#link").click(function(){
    $('#content').load("new.html");
 
-});
+})
+}
+);
 </script>
 </head>
 <body>
 
 <div id="content"></div>
+<a id="link" href="#">Click Test Link</a>
+
 
 </body>
 </html>
