@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Include</title>
-    </head>
-    <body>
-        <div id="include"></div>
-        <a id="link" href="#">Click Test Link</a>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+   
+   $('#content').load("new.html");
 
-        <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-        <script type="text/javascript"> 
-            $("#link").click(function(){
-                $("#include").load("include/new.html"); 
-            });
-        </script> 
-    </body>
+});
+</script>
+</head>
+<body>
+
+<div id="content"></div>
+
+</body>
 </html>
