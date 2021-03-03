@@ -1,37 +1,103 @@
 <html>
-<head>    
-</head>
+<script type="text/javascript">
+	
+ function myFunction31()
+{
+	document.getElementById('lopo').style.display='none';
+	document.getElementById('quotes').style.display='block';
+}
+
+</script>
 <body>
-<div id="quotes" style="background-color: white;
-  height: 100vh;">
-	<div style="background-color: 	 	 #e6e6ff3;
+	<div id="lopo" style="height:100%;width: 100%;background-color:white;">
+		<div style="background-color: 	 	 #e6e6ff3;
 	position:absolute;
 	bottom: 0px;
-	left:0px;
-	width:20vw;
-	height:200px;
+	
+	
+	
+	
 	 
 	" id="qouta" >
 
-	
-<p style="color: black;">Note:
+	<p style="color: black; position: absolute; top: 40%;">Note:
 If you like a qoute,then we request you to endure a little pain,sign in and like the quote.It will boost the confidence of the tender writers.
 Credit:Yourqoute.in </p>
 
+<button type="button" onclick="myFunction31()" id="iop" 
+">Proceed</button>
 </div>
+
+	</div>
+<div id="quotes" style=" width:99%;height:100vh;background-color: green;display: none;">
+	
 <iframe src="https://www.yourquote.in/anonymousanonymous" id="yourquote12"></iframe>
 
 </div>
   <style>
+  	#qouta
+{left: 40%;
+	top:30vh;
+	width:20vw;
+height:20vh;
+}
     #quotes
 {
 	
 
-width: 100%;
+
 zoom:100%;
 
 }
-    
+#yourquote12
+{
+	width: 100%;
+	height: 100%;
+}
+
+#iop
+{
+	position: absolute;
+	left: 28%;
+	bottom: 0px;
+	height: 10vh;
+	width: 30vw;
+	font-size: 50px;
+}
+    #lopo
+    {
+    	font-size: 2vw;
+    }
+
+   
+
+#qouta
+{left: 0px;
+	top: 20vh;
+	width:100%;
+
+height:50vh;
+	background-color: yellow;
+	
+}
+    @media only screen and (max-width: 1024px){
+
+    	 #lopo
+    {
+    	font-size: 5vw;
+    }
+
+#qouta
+{left: 0px;
+	top: 20vh;
+	width:100%;
+
+height:50vh;
+	background-color: yellow;
+	
+}
+}
   </style>
+
 </body>
 </html>
